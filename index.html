@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Your Name のPortfolio Siteです。">
+        <meta property="og:title" content="Your Name Portfolio Site">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="#">
+        <meta property="og:image" content="images/meta/ogimage.jpg">
+        <meta property="og:site_name" content="Your Name Portfolio Site">
+        <meta property="og:description" content="Your Name のPortfolio Siteです。">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="apple-touch-icon" href="images/meta/apple-touch-icon.png">
+        <link rel="shortcut icon" href="images/meta/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>じゃんけんゲーム</title>
+        
+
+    </head>
+
+    <body>
+        
+    <main>
+        <div class="text-center ">
+            <img class="top" src="css/img/TOP.jpg" alt="じゃんけんの画像">
+            <p class="site-title">じゃんけんゲーム</p>
+        </div>    
+
+    <h2 class="vsJanken">どの手を出すか選べ！</h2>
+        <ul>
+            <div class="flexbox">
+                <li class="gu_btn"><img src="css/img/gu.jpg" alt="グーの画像" class="btn_border"  href="#position"></li>
+                <li class="cho_btn"><img src="css/img/choki.jpg" alt="チョキの画像" class="btn_border" href="#position"></li>
+                <li class="par_btn"><img src="css/img/par.jpg" alt="パーの画像" class="btn_border"href="#position"></li>
+            </div>
+        </ul>
+    <div id="PC" class="vsJanken">ドラえもんの手を表示</div>
+    <p id="gazou" class="text-center"></p>
+    <h2 id="result" class="vsJanken">勝負の結果を表示</h2>
+
+    <div class="text-center">
+    <a class="btn btn-border "><span class="button" id="position">もう一回！</span></a>
+    </div>
+
+        <!-- jQueryを読み込む！必ず先に！ -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+        <!-- 最後に自分が記述するjsを読み込む -->
+        <script src='js/app.js'></script>
+    </main>
+
+    </body>
+    </html>
